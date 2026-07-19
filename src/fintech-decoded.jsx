@@ -7,7 +7,7 @@ const BLUE = "#2547F4";
 const HIGHLIGHT = "#F4E76E";
 const GREY = "#5C6270";
 
-const EDITION = "Mid-July 2026 edition · hand-picked & simplified";
+const EDITION = "Week of July 13\u201319, 2026 \u00b7 hand-picked & simplified";
 
 // ─── Usage stats (artifact shared storage) ──────────────────────
 const STATS_KEY = "fd-usage-stats-v1";
@@ -74,114 +74,73 @@ const CATEGORIES = {
 const STATIC_STORIES = {
   payments: [
     {
-      headline: "Stripe just offered $53 billion to buy PayPal — and PayPal isn't sure",
-      source: "Finextra",
-      url: "https://www.finextra.com/newsarticle/48116/paypal-board-considers-53bn-stripe-advent-offer-inadequate---reuters",
+      headline: "Mastercard might sell the pipes that move Britain's money",
+      source: "FinTech Futures",
+      url: "https://www.fintechfutures.com/fintech/fintech-futures-top-five-news-stories-of-the-week-17-july-2026",
       date: "Jul 17",
-      what: "Stripe and private equity firm Advent International bid $60.50 per share for PayPal — valuing it at more than $53 billion, a 28% premium to its share price, backed by about $50 billion in committed bank financing. The plan: own PayPal equally and keep it intact. But PayPal's board reportedly believes the offer undervalues the company and worries about regulatory pushback, and hasn't formally responded.",
-      why: "Two of the biggest names in online payments could become one company — touching millions of checkouts, Venmo accounts and online purchases. Whatever happens next, this is the biggest story in payments right now.",
-      jargonTerm: "Takeover premium",
-      jargonMeaning: "The extra amount above the current share price a buyer offers to convince shareholders to sell.",
+      what: "Mastercard is reportedly exploring the sale of a majority stake in Vocalink, its London-based payments technology business, according to a Financial Times report cited by FinTech Futures. Vocalink acts as the central switchboard for the UK's retail banking network — the behind-the-scenes infrastructure that everyday bank payments run through.",
+      why: "You never see the pipes that move a country's money, but who owns them shapes investment, reliability and fees across the whole system.",
+      jargonTerm: "Payment rails",
+      jargonMeaning: "The behind-the-scenes plumbing that moves money between banks and accounts.",
     },
     {
-      headline: "Visa built an AI money assistant for your banking app",
-      source: "PYMNTS",
-      url: "https://www.pymnts.com/news/artificial-intelligence/2026/visa-readies-rollout-ai-financial-assistant-banking-apps/",
-      date: "Jul 14",
-      what: "Visa launched an AI Financial Assistant that banks can plug into their own apps, under their own brand. Cardholders can chat about their spending in plain language, get automatic insights, and take action — with US banks starting pilots in August and a global rollout planned after.",
-      why: "People are already asking AI chatbots for money advice. This puts that experience inside your bank's own app — where your financial data doesn't have to be handed to a third party.",
-      jargonTerm: "Value-added service",
-      jargonMeaning: "An extra feature a payment network sells to banks on top of simply processing payments.",
+      headline: "A payment app just became a trade war issue",
+      source: "CoinDesk",
+      url: "https://www.coindesk.com/business/2026/07/18/trump-targets-brazil-s-payments-system-while-dollar-stablecoins-quietly-dominate-country-s-payments",
+      date: "Jul 18",
+      what: "The US will impose a 25% tariff on most Brazilian goods from July 22 — the first time Washington has used its Section 301 trade powers against another country's domestic payment system. US officials argue Brazil's Pix network, which offers free transfers for individuals and caps merchant fees, disadvantages American card companies. Pix handled 42.9 billion transactions in the second half of 2025 — nearly double all card payments combined. Meanwhile, dollar-linked stablecoins already make up about 90% of Brazil's crypto transaction volume.",
+      why: "How countries move money — cards, instant transfers, digital dollars — is turning into geopolitics. That fight ends up shaping the prices and payment options regular people get.",
+      jargonTerm: "Section 301",
+      jargonMeaning: "A US trade law that lets Washington penalize foreign practices it deems unfair to American companies.",
     },
   ],
   stablecoins: [
     {
-      headline: "Sony is getting into digital dollars",
-      source: "CoinDesk",
-      url: "https://www.coindesk.com/business/2026/07/09/sony-secures-conditional-approval-to-set-up-u-s-stablecoin-trust-bank",
-      date: "Jul 9",
-      what: "Sony received conditional approval to set up a US trust bank that would support issuing and managing dollar-backed stablecoins. It's a striking move: an electronics and entertainment giant stepping directly into regulated digital money.",
-      why: "When companies like Sony start building digital-dollar infrastructure, it's a sign stablecoins are going mainstream — not just a crypto niche.",
-      jargonTerm: "Trust bank",
-      jargonMeaning: "A special kind of bank that safeguards assets for others but doesn't take deposits or make loans.",
+      headline: "Visa built the machinery for banks to run digital dollars",
+      source: "Finextra",
+      url: "https://www.finextra.com/newsarticle/48110/visa-launches-stablecoin-platform",
+      date: "Jul 16",
+      what: "Visa unveiled the Visa Stablecoin Platform, now in beta testing — a single environment where banks and fintechs can access, store and redeem stablecoins, including on-chain wallet infrastructure through a new Wallet-as-a-Service offering. It starts with Open USD (OUSD), the stablecoin from Open Standard, the new independent company whose 140+ founding partners include Visa, Mastercard, US Bank, Google and Coinbase — slated to launch later this year.",
+      why: "The company behind the card in your wallet is building the plumbing for banks to issue digital dollars. When your bank eventually offers one, something like this will likely be running underneath.",
+      jargonTerm: "Minting",
+      jargonMeaning: "Creating new units of a stablecoin, each backed by real money held in reserve.",
     },
     {
-      headline: "A company put $295 million of its own stock on the blockchain — on day one",
+      headline: "Will Gen Alpha ever open a bank account?",
       source: "CoinDesk",
-      url: "https://www.coindesk.com/business/2026/07/02/securitize-tokenizes-usd295-million-of-its-own-stock-on-solana-and-avalanche-amid-nyse-debut",
-      date: "Jul 2",
-      what: "Securitize, a tokenization firm backed by BlackRock and ARK Invest, went public on the New York Stock Exchange — and on its very first day of trading, made its own shares available in token form on the Solana and Avalanche blockchains. Investors held about $295 million of the tokenized shares at launch, and the company says they represent the same stock as the NYSE shares, not a separate copy.",
-      why: "This is what 'stocks on the blockchain' looks like in practice. If it catches on, buying shares could someday work more like sending a digital payment — faster settlement, fewer middlemen.",
-      jargonTerm: "Tokenization",
-      jargonMeaning: "Turning a real-world asset, like a share of stock, into a digital token that lives on a blockchain.",
+      url: "https://www.coindesk.com/business/2026/07/17/crypto-executives-say-digital-native-generations-may-never-need-a-bank-account",
+      date: "Jul 17",
+      what: "Crypto executives and bankers told CoinDesk they increasingly expect digitally native generations to rely on wallets holding stablecoins and tokenized assets instead of stand-alone bank accounts. Standard Chartered expects stablecoin circulation to grow roughly sevenfold to about $2 trillion by 2028 — with stablecoins handling more retail payments and remittances, while bank-issued tokens serve larger institutional flows.",
+      why: "Whether or not bank accounts actually disappear, the people building tomorrow's financial products are planning for a world where your 'account' is a wallet on your phone.",
+      jargonTerm: "Digital wallet",
+      jargonMeaning: "Software that holds your money and digital assets and lets you pay directly from your phone.",
     },
   ],
   regulators: [
     {
-      headline: "Buy-now-pay-later is officially regulated in the UK — as of this week",
-      source: "Finextra",
-      url: "https://www.finextra.com/newsarticle/48090/uk-bnpl-regulations-come-into-force",
-      date: "Jul 15",
-      what: "The UK's new buy-now-pay-later regime came into force on July 15. Providers must now give clear upfront details about payment schedules and what happens if you miss one, run proportionate affordability checks, and support customers in arrears — a big shift for a market that grew from £60 million in 2017 to over £13 billion by 2024, used by roughly one in five UK adults.",
-      why: "BNPL looks like a payment button at checkout, but it's really credit — and until this week it sat outside the rules. UK shoppers just gained protections other borrowers have had for decades.",
-      jargonTerm: "Consumer Duty",
-      jargonMeaning: "The UK rule requiring financial firms to deliver good outcomes for customers — not just follow the letter of the law.",
-    },
-    {
-      headline: "Cash App's parent will pay $45 million over fraud protection failures",
-      source: "PYMNTS",
-      url: "https://www.pymnts.com/legal/2026/block-pays-45-million-to-settle-46-state-probe-into-cash-app-fraud-protection-and-resolution/",
-      date: "Jul 8",
-      what: "Block agreed to pay $45 million to settle allegations from 46 US states that it misled consumers about the safety of Cash App and failed to provide the fraud protection and dispute resolution required by law. The investigation was led by Oregon and Texas. Block denied wrongdoing and agreed to strengthen fraud prevention and customer support.",
-      why: "Millions of people treat payment apps like bank accounts. Enforcement like this pushes those apps to actually behave like one when something goes wrong — including a real human to talk to.",
-      jargonTerm: "Multistate settlement",
-      jargonMeaning: "State attorneys general teaming up to enforce consumer protection rules together.",
+      headline: "The UK is now directly regulating the cloud companies banks run on",
+      source: "FinTech Futures",
+      url: "https://www.fintechfutures.com/fintech/fintech-futures-top-five-news-stories-of-the-week-17-july-2026",
+      date: "Jul 17",
+      what: "The UK's HM Treasury rolled out a new regime this week that brings four global cloud service providers under direct regulatory oversight for the first time — a move intended to strengthen the resilience of the UK's financial system.",
+      why: "So much of banking now runs on a handful of cloud companies that one outage could ripple across the entire financial system. Regulators are finally treating that invisible plumbing as critical infrastructure.",
+      jargonTerm: "Critical third party",
+      jargonMeaning: "An outside company so important to the financial system that regulators supervise it directly.",
     },
   ],
   publications: [
     {
-      headline: "AI-generated fake documents are breaking mortgage checks",
-      source: "PYMNTS",
-      url: "https://www.pymnts.com/news/artificial-intelligence/2026/ai-cracked-mortgage-verification-system/",
-      date: "Jul 2026",
-      what: "Generative AI can now produce fake payslips, bank statements and tax records convincing enough to pass standard mortgage verification — and Australian banks are investigating billions of dollars in suspected fraudulent loans. In response, lenders are shifting from checking documents to verifying financial data directly at the source, through consent-based access to government and payroll records.",
-      why: "The way lenders decide who gets a loan is being rebuilt in real time. Expect more 'connect your account' verification and fewer 'upload a PDF' requests.",
-      jargonTerm: "Underwriting",
-      jargonMeaning: "The process a lender uses to decide whether you can afford a loan.",
-    },
-    {
-      headline: "Why the PayPal bid is also a digital-dollar story",
-      source: "CoinDesk",
-      url: "https://www.coindesk.com/business/2026/07/15/stripe-mounts-blockbuster-usd53-billion-bid-to-buy-paypal",
-      date: "Jul 15",
-      what: "CoinDesk's angle on the week's mega-deal: Stripe and PayPal are two of the most prominent mainstream companies bringing stablecoins onto traditional payment rails. PayPal issues its own digital dollar, PYUSD — currently the sector's eighth largest at about a $185 million market value, versus roughly $184 billion for leader Tether — while Stripe has focused on integrating Circle's USDC into its payments infrastructure.",
-      why: "If the deal happens, the combined company would hold serious cards in the race to make digital dollars part of everyday payments — not just crypto trading.",
-      jargonTerm: "Market capitalization",
-      jargonMeaning: "The total value of all of a coin's (or company's) units combined.",
+      headline: "A banking tech company's own customers just funded it to a $1.6B valuation",
+      source: "FinTech Futures",
+      url: "https://www.fintechfutures.com/fintech/fintech-futures-top-five-news-stories-of-the-week-17-july-2026",
+      date: "Jul 17",
+      what: "Lumin Digital, a California-based digital banking technology provider, raised $115 million — including a $70 million round backed by 15 of its own existing clients, such as Affinity Plus Federal Credit Union, plus a $45 million growth investment led by long-term backer Light Street Capital. The round values Lumin at $1.6 billion, with the money earmarked for AI, payments, CRM and lending products.",
+      why: "When a company's own customers put up $70 million to fund it, that's about the strongest product endorsement there is — and its tools shape the online banking experience millions of credit union members use.",
+      jargonTerm: "Growth equity",
+      jargonMeaning: "Investment in an established company to help it expand — not to keep it alive.",
     },
   ],
-  canada: [
-    {
-      headline: "More Canadians are paying for groceries in installments",
-      source: "Fintech.ca",
-      url: "https://www.fintech.ca/2026/07/07/canadians-turn-to-pay-later-as-grocery-costs-keep-climbing/",
-      date: "Jul 7",
-      what: "KOHO's Grocery Gap Report, based on data from over 173,000 members, found average grocery spending rose about 5% in a year — from $261 to $275 a month — while use of KOHO's Pay Later option more than doubled, up 109%. Trips to discount grocers rose 4.1% as shoppers hunt for savings.",
-      why: "When people start splitting grocery bills into installments, it's a signal of real affordability stress. Pay-later on essentials can help in a pinch — but late fees can make a tight month tighter.",
-      jargonTerm: "BNPL (buy now, pay later)",
-      jargonMeaning: "Splitting a purchase into smaller payments over weeks — usually free unless you pay late.",
-    },
-    {
-      headline: "Canada's instant-payment system cleared its last big legal hurdle",
-      source: "Payments Canada",
-      url: "https://www.payments.ca/critical-milestone-achieved-law-and-rules-approved-canadas-real-time-rail",
-      date: "",
-      what: "The by-law and rules governing the Real-Time Rail — Canada's long-awaited instant payment system — have received all necessary approvals and come into force on August 24, 2026, ahead of a launch planned for the fourth quarter of 2026. Once live, payments will send, clear and settle in seconds, 24/7, every day of the year.",
-      why: "Think e-transfers, bill payments and paycheques that land instantly — even at 2 a.m. on a holiday. It's the plumbing upgrade Canadian payments have waited a decade for.",
-      jargonTerm: "Payment rails",
-      jargonMeaning: "The behind-the-scenes plumbing that moves money between financial institutions.",
-    },
-  ],
+  canada: [],
 };
 
 export default function FintechDecoded() {
@@ -388,6 +347,17 @@ export default function FintechDecoded() {
                   </div>
                 </article>
               ))}
+              {stories.length === 0 && (
+                <div style={{ background: "#fff", border: "1.5px solid #E4E6EB", borderRadius: 16, padding: "26px 24px", textAlign: "center" }}>
+                  <div style={{ fontSize: 26, marginBottom: 8 }} aria-hidden="true">{cat.emoji}</div>
+                  <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: 18, marginBottom: 6, color: INK }}>
+                    Quiet week
+                  </div>
+                  <p style={{ fontSize: 14.5, color: GREY, lineHeight: 1.55, margin: 0 }}>
+                    No new stories from our tracked sources made the cut this edition — honest curation beats padding. Check back next week.
+                  </p>
+                </div>
+              )}
             </div>
           </section>
         )}
