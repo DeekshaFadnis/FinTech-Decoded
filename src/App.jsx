@@ -7,7 +7,7 @@ const BLUE = "#2547F4";
 const HIGHLIGHT = "#F4E76E";
 const GREY = "#5C6270";
 
-const EDITION = "July 2026 edition · hand-picked & simplified";
+const EDITION = "Week of July 13\u201319, 2026 \u00b7 hand-picked & simplified";
 
 // ─── Usage stats (artifact shared storage) ──────────────────────
 const STATS_KEY = "fd-usage-stats-v1";
@@ -74,154 +74,73 @@ const CATEGORIES = {
 const STATIC_STORIES = {
   payments: [
     {
-      headline: "The fees stores pay on your credit card are set to shrink",
-      source: "Merchant Cost Consulting",
-      url: "https://merchantcostconsulting.com/lower-credit-card-processing-fees/payment-news-today-june-2026/",
-      date: "Jun 9",
-      what: "A US judge gave preliminary approval to a settlement that would make Visa and Mastercard lower the fees merchants pay to accept credit cards — down by an average of 0.1 percentage points over five years, with standard US credit cards capped at 1.25% per transaction. It still needs final approval before it's a done deal.",
-      why: "Stores bake these card fees into the prices everyone pays. Lower fees mean a little breathing room for small businesses — and possibly less pressure on prices.",
-      jargonTerm: "Interchange fee",
-      jargonMeaning: "The small cut of every card purchase that goes to the bank that issued the card.",
+      headline: "Mastercard might sell the pipes that move Britain's money",
+      source: "FinTech Futures",
+      url: "https://www.fintechfutures.com/fintech/fintech-futures-top-five-news-stories-of-the-week-17-july-2026",
+      date: "Jul 17",
+      what: "Mastercard is reportedly exploring the sale of a majority stake in Vocalink, its London-based payments technology business, according to a Financial Times report cited by FinTech Futures. Vocalink acts as the central switchboard for the UK's retail banking network — the behind-the-scenes infrastructure that everyday bank payments run through.",
+      why: "You never see the pipes that move a country's money, but who owns them shapes investment, reliability and fees across the whole system.",
+      jargonTerm: "Payment rails",
+      jargonMeaning: "The behind-the-scenes plumbing that moves money between banks and accounts.",
     },
     {
-      headline: "Mastercard built a way for AI programs to pay each other",
-      source: "Mastercard",
-      url: "https://www.mastercard.com/us/en/news-and-trends/press/2026/june/mastercard-launches-agent-pay-for-machines.html",
-      date: "Jun 10",
-      what: "Mastercard launched Agent Pay for Machines — a payment system designed for AI agents that buy services from each other automatically, including payments worth fractions of a cent. More than 30 companies, including Adyen, Stripe and Coinbase, are the first to support it.",
-      why: "The next wave of shopping may be your AI assistant ordering and paying for things on your behalf. The rules for how that money moves safely are being written right now.",
-      jargonTerm: "Machine-to-machine payments",
-      jargonMeaning: "Payments that happen between software programs with no human clicking 'buy'.",
-    },
-    {
-      headline: "Adyen wants stores to sell to you inside AI chatbots",
-      source: "Investing.com",
-      url: "https://www.investing.com/news/company-news/adyen-launches-api-suite-for-ai-commerce-integration-93CH-4744986",
-      date: "Jun 2026",
-      what: "Payments company Adyen launched Adyen Agentic — tools that let retailers sell through conversational AI platforms without rebuilding their checkout for each one. It handles the product catalog, the cart and the payment, and it's starting with large US merchants. Early participants include American Express, Mastercard, Salesforce and Visa.",
-      why: "If you've ever asked a chatbot to find you something, this is the plumbing that would let you actually buy it there — and it determines how safe that checkout is.",
-      jargonTerm: "API",
-      jargonMeaning: "A connector that lets two software systems talk to each other automatically.",
+      headline: "A payment app just became a trade war issue",
+      source: "CoinDesk",
+      url: "https://www.coindesk.com/business/2026/07/18/trump-targets-brazil-s-payments-system-while-dollar-stablecoins-quietly-dominate-country-s-payments",
+      date: "Jul 18",
+      what: "The US will impose a 25% tariff on most Brazilian goods from July 22 — the first time Washington has used its Section 301 trade powers against another country's domestic payment system. US officials argue Brazil's Pix network, which offers free transfers for individuals and caps merchant fees, disadvantages American card companies. Pix handled 42.9 billion transactions in the second half of 2025 — nearly double all card payments combined. Meanwhile, dollar-linked stablecoins already make up about 90% of Brazil's crypto transaction volume.",
+      why: "How countries move money — cards, instant transfers, digital dollars — is turning into geopolitics. That fight ends up shaping the prices and payment options regular people get.",
+      jargonTerm: "Section 301",
+      jargonMeaning: "A US trade law that lets Washington penalize foreign practices it deems unfair to American companies.",
     },
   ],
   stablecoins: [
     {
-      headline: "Circle, the company behind the USDC digital dollar, can now act as its own bank",
-      source: "CNBC",
-      url: "https://www.cnbc.com/2026/07/10/circle-gets-an-occ-bank-charter-as-stablecoin-competition-heats-up-shares-surge-14percent.html",
-      date: "Jul 10",
-      what: "A US banking regulator approved Circle to operate a national trust bank, called Circle National Trust. That lets Circle directly manage the money backing its USDC stablecoin — over $73 billion in circulation — instead of relying on outside banks to hold it. The charter doesn't let Circle take deposits or make loans like a regular bank.",
-      why: "If you ever hold a digital dollar, what matters most is whether the real money behind it is safe. This puts that money under more direct oversight.",
-      jargonTerm: "Reserves",
-      jargonMeaning: "The real cash and safe assets set aside so every digital dollar is backed one-to-one.",
+      headline: "Visa built the machinery for banks to run digital dollars",
+      source: "Finextra",
+      url: "https://www.finextra.com/newsarticle/48110/visa-launches-stablecoin-platform",
+      date: "Jul 16",
+      what: "Visa unveiled the Visa Stablecoin Platform, now in beta testing — a single environment where banks and fintechs can access, store and redeem stablecoins, including on-chain wallet infrastructure through a new Wallet-as-a-Service offering. It starts with Open USD (OUSD), the stablecoin from Open Standard, the new independent company whose 140+ founding partners include Visa, Mastercard, US Bank, Google and Coinbase — slated to launch later this year.",
+      why: "The company behind the card in your wallet is building the plumbing for banks to issue digital dollars. When your bank eventually offers one, something like this will likely be running underneath.",
+      jargonTerm: "Minting",
+      jargonMeaning: "Creating new units of a stablecoin, each backed by real money held in reserve.",
     },
     {
-      headline: "140+ companies — including Visa and Stripe — are launching their own digital dollar",
-      source: "Fortune",
-      url: "https://fortune.com/2026/06/30/stripe-visa-stablecoin-rival-ousd-tether-circle/",
-      date: "Jun 30",
-      what: "A new company called Open Standard announced OUSD (Open USD), a stablecoin backed by Stripe, Visa, Mastercard, BlackRock and more than 140 other businesses. It launches later this year and is designed to share most of the interest earned on its backing assets with participants. The two current giants, Tether and Circle, are not part of it — and Circle's stock dropped sharply on the news.",
-      why: "The biggest names in payments are betting digital dollars are the future of moving money — and they'd rather own that future than rent it.",
-      jargonTerm: "Consortium",
-      jargonMeaning: "A group of companies teaming up to build and own one shared project.",
-    },
-    {
-      headline: "Ripple's digital dollar just went live in Japan",
-      source: "CryptoSlate",
-      url: "https://cryptoslate.com/ripple-got-rlusd-into-japan-now-the-stablecoin-race-begins-as-circle-and-nomura-join/",
-      date: "Jun 24",
-      what: "Ripple and its partner SBI launched the RLUSD stablecoin in Japan after approval from the country's financial regulator, making it available to both institutions and everyday users. It's classified under Japan's payment rules as a new category for foreign-issued stablecoins — and rivals are moving in fast: Circle and Nomura plan a USDC-based corporate payment service in Japan as early as 2027.",
-      why: "Regulated digital dollars are going global, country by country. Japan is one of the world's biggest financial markets — a real test of whether this works at scale.",
-      jargonTerm: "Stablecoin",
-      jargonMeaning: "A digital coin designed to always be worth exactly one unit of a real currency, like the US dollar.",
+      headline: "Will Gen Alpha ever open a bank account?",
+      source: "CoinDesk",
+      url: "https://www.coindesk.com/business/2026/07/17/crypto-executives-say-digital-native-generations-may-never-need-a-bank-account",
+      date: "Jul 17",
+      what: "Crypto executives and bankers told CoinDesk they increasingly expect digitally native generations to rely on wallets holding stablecoins and tokenized assets instead of stand-alone bank accounts. Standard Chartered expects stablecoin circulation to grow roughly sevenfold to about $2 trillion by 2028 — with stablecoins handling more retail payments and remittances, while bank-issued tokens serve larger institutional flows.",
+      why: "Whether or not bank accounts actually disappear, the people building tomorrow's financial products are planning for a world where your 'account' is a wallet on your phone.",
+      jargonTerm: "Digital wallet",
+      jargonMeaning: "Software that holds your money and digital assets and lets you pay directly from your phone.",
     },
   ],
   regulators: [
     {
-      headline: "The UK just published the rulebook for crypto companies",
-      source: "NCFA Canada (weekly brief)",
-      url: "https://ncfacanada.org/ncfa-weekly-fintech-intelligence-jun-27-jul-3-2026/",
-      date: "Jun 2026",
-      what: "The UK's Financial Conduct Authority set out rules for firms that let people buy, trade, hold and stake crypto — including stablecoin standards, capital requirements and stress testing. Companies can apply for authorisation between September 30, 2026 and February 28, 2027, before the rules become mandatory on October 25, 2027.",
-      why: "If you use a crypto app in the UK, the platform will soon be held to standards much closer to a bank's — with real consequences if it falls short.",
-      jargonTerm: "Authorisation",
-      jargonMeaning: "The official licence a company must earn before it's allowed to offer financial services.",
-    },
-    {
-      headline: "Canada now has a law for digital dollars — and the Bank of Canada is in charge",
-      source: "Bennett Jones",
-      url: "https://www.bennettjones.com/Insights/Blogs/Fintech-in-Canada-Q1-2026",
-      date: "Mar 26",
-      what: "Canada's stablecoin framework became law on March 26, 2026. Issuers of fiat-backed stablecoins will have to register with the Bank of Canada, keep one-to-one reserves in high-quality safe assets, and let holders redeem at full value — with no interest paid on holdings. Detailed regulations are still being written, with full force expected around 2027.",
-      why: "When digital dollars arrive in your Canadian banking app, the company behind them will answer directly to the central bank — the same referee that watches over your money today.",
-      jargonTerm: "Royal assent",
-      jargonMeaning: "The final approval that officially turns a bill into law in Canada.",
+      headline: "The UK is now directly regulating the cloud companies banks run on",
+      source: "FinTech Futures",
+      url: "https://www.fintechfutures.com/fintech/fintech-futures-top-five-news-stories-of-the-week-17-july-2026",
+      date: "Jul 17",
+      what: "The UK's HM Treasury rolled out a new regime this week that brings four global cloud service providers under direct regulatory oversight for the first time — a move intended to strengthen the resilience of the UK's financial system.",
+      why: "So much of banking now runs on a handful of cloud companies that one outage could ripple across the entire financial system. Regulators are finally treating that invisible plumbing as critical infrastructure.",
+      jargonTerm: "Critical third party",
+      jargonMeaning: "An outside company so important to the financial system that regulators supervise it directly.",
     },
   ],
   publications: [
     {
-      headline: "Klarna wants to become a real American bank",
+      headline: "A banking tech company's own customers just funded it to a $1.6B valuation",
       source: "FinTech Futures",
-      url: "https://www.fintechfutures.com/bnpl-payments/klarna-applies-for-us-banking-licence",
-      date: "Jul 6",
-      what: "Klarna, the buy-now-pay-later giant used by about 30 million Americans, applied to US regulators to create Klarna Bank USA — its own bank chartered in Utah with FDIC insurance. Today it runs its US services through a partner bank; owning a licence would bring all of that in-house. It follows similar moves by PayPal and others.",
-      why: "The app you split payments with becoming a licensed bank means more oversight, insured deposits — and a sign that fintechs are growing up into the system they once disrupted.",
-      jargonTerm: "Industrial bank",
-      jargonMeaning: "A special type of state-chartered bank that a company can own and run itself.",
-    },
-    {
-      headline: "Digital dollars just had their biggest month ever",
-      source: "CoinDesk",
-      url: "https://www.coindesk.com/business/2026/07/06/circle-s-usdc-is-leaving-tether-behind-in-the-stablecoin-volume-race",
-      date: "Jul 6",
-      what: "Stablecoin transactions hit a record $1.79 trillion in June — up 63% from May and 125% from a year earlier, according to Visa's onchain data. Circle's USDC handled about 70% of that activity in the first half of 2026, well ahead of Tether's roughly 25%, as banks like Standard Chartered and BNY build services around it.",
-      why: "Digital dollars are quietly moving from crypto trading into everyday payments and settlement — and the regulated option is the one winning.",
-      jargonTerm: "Adjusted transaction volume",
-      jargonMeaning: "A count of real payments only, after filtering out bots and internal shuffling.",
-    },
-    {
-      headline: "Circle's stock tumbled after the giants ganged up",
-      source: "CoinDesk",
-      url: "https://www.coindesk.com/business/2026/06/30/circle-slides-8-as-stripe-coinbase-and-blackrock-back-rival-stablecoin-network",
-      date: "Jun 30",
-      what: "Circle's shares fell more than 17% to a four-month low after the Open USD consortium was unveiled. The new stablecoin's key twist: partners get to keep the earnings on the money backing the coin — striking directly at how today's stablecoin issuers make their profit.",
-      why: "A reminder that in fintech, your biggest customers can become your biggest competitors overnight — and stock prices react in hours.",
-      jargonTerm: "Reserve earnings",
-      jargonMeaning: "The interest an issuer makes on the pile of money backing its coin.",
+      url: "https://www.fintechfutures.com/fintech/fintech-futures-top-five-news-stories-of-the-week-17-july-2026",
+      date: "Jul 17",
+      what: "Lumin Digital, a California-based digital banking technology provider, raised $115 million — including a $70 million round backed by 15 of its own existing clients, such as Affinity Plus Federal Credit Union, plus a $45 million growth investment led by long-term backer Light Street Capital. The round values Lumin at $1.6 billion, with the money earmarked for AI, payments, CRM and lending products.",
+      why: "When a company's own customers put up $70 million to fund it, that's about the strongest product endorsement there is — and its tools shape the online banking experience millions of credit union members use.",
+      jargonTerm: "Growth equity",
+      jargonMeaning: "Investment in an established company to help it expand — not to keep it alive.",
     },
   ],
-  canada: [
-    {
-      headline: "More Canadians are paying for groceries in installments",
-      source: "Fintech.ca",
-      url: "https://www.fintech.ca/2026/07/07/canadians-turn-to-pay-later-as-grocery-costs-keep-climbing/",
-      date: "Jul 7",
-      what: "KOHO's Grocery Gap Report, based on data from over 173,000 members, found average grocery spending rose about 5% in a year — from $261 to $275 a month — while use of KOHO's Pay Later option more than doubled, up 109%. Trips to discount grocers rose 4.1% as shoppers hunt for savings.",
-      why: "When people start splitting grocery bills into installments, it's a signal of real affordability stress. Pay-later on essentials can help in a pinch — but late fees can make a tight month tighter.",
-      jargonTerm: "BNPL (buy now, pay later)",
-      jargonMeaning: "Splitting a purchase into smaller payments over weeks — usually free unless you pay late.",
-    },
-    {
-      headline: "Canada's instant-payment system finally has a green light",
-      source: "Fathom4sight (via BetaKit)",
-      url: "https://www.fathom4sight.ai/newsletters/fathom4sight-newsletter-week-of-july-6-2026",
-      date: "Jul 2026",
-      what: "The Finance Minister approved the legal framework for the Real-Time Rail, Canada's long-delayed instant payments system, clearing the way for a launch in the fourth quarter of 2026. Payments Canada has been building it since 2015 — it was originally promised for 2019. Once live, money will move instantly, any time, any day, instead of taking days to settle.",
-      why: "Think e-transfers, bill payments and paycheques that land in seconds — even at 2 a.m. on a holiday. It's the plumbing upgrade Canadian payments have waited a decade for.",
-      jargonTerm: "Payment rails",
-      jargonMeaning: "The behind-the-scenes plumbing that moves money between banks.",
-    },
-    {
-      headline: "Fintech apps just got their own keys to Canada's payment system",
-      source: "Bennett Jones",
-      url: "https://www.bennettjones.com/Insights/Blogs/Fintech-in-Canada-Q1-2026",
-      date: "",
-      what: "After a 2025 law change, Payments Canada admitted its first non-bank direct members: Wise, Float, KOHO, Paramount Commerce and Brim Financial. Direct membership gives these fintechs access to national payment infrastructure — including the upcoming Real-Time Rail — without going through a big bank.",
-      why: "Your favourite money app relying less on the big banks can mean lower costs and faster features reaching you sooner.",
-      jargonTerm: "Clearing and settlement",
-      jargonMeaning: "The process of actually moving money between institutions after you hit 'pay'.",
-    },
-  ],
+  canada: [],
 };
 
 export default function FintechDecoded() {
@@ -297,7 +216,7 @@ export default function FintechDecoded() {
           maxWidth: 860, margin: "0 auto", padding: "0 16px", display: "flex", alignItems: "center",
           gap: 4, overflowX: "auto", scrollbarWidth: "none",
         }}>
-          <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: 16, letterSpacing: "-0.02em", padding: "14px 12px 14px 0", whiteSpace: "nowrap", color: INK }}>
+          <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: 16, letterSpacing: "-0.02em", padding: "14px 12px 14px 0", whiteSpace: "nowrap", color: "#000000" }}>
             Fintech, <span style={{ background: `linear-gradient(180deg, transparent 55%, ${HIGHLIGHT} 55%)`, padding: "0 2px" }}>decoded</span>.
           </div>
           <div style={{ flex: 1 }} />
@@ -336,7 +255,7 @@ export default function FintechDecoded() {
         <div style={{ fontSize: 12.5, fontWeight: 800, letterSpacing: "0.14em", textTransform: "uppercase", color: BLUE, marginBottom: 12 }}>
           The plain-English news brief
         </div>
-        <h1 style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: "clamp(38px, 8vw, 60px)", lineHeight: 1.02, margin: 0, letterSpacing: "-0.03em", color: INK }}>
+        <h1 style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: "clamp(38px, 8vw, 60px)", lineHeight: 1.02, margin: 0, letterSpacing: "-0.03em", color: "#000000" }}>
           Fintech,{" "}
           <span style={{ background: `linear-gradient(180deg, transparent 55%, ${HIGHLIGHT} 55%)`, padding: "0 4px" }}>
             decoded
@@ -355,7 +274,7 @@ export default function FintechDecoded() {
         {cat && (
           <section>
             <div style={{ textAlign: "center", marginBottom: 10 }}>
-              <h2 style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: 24, margin: "0 0 4px", color: INK }}>
+              <h2 style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: 24, margin: "0 0 4px", color: "#000000" }}>
                 <span aria-hidden="true">{cat.emoji}</span> {cat.label}
               </h2>
               <p style={{ fontSize: 14.5, fontWeight: 600, color: GREY, margin: "0 0 14px" }}>{cat.blurb}</p>
@@ -428,13 +347,24 @@ export default function FintechDecoded() {
                   </div>
                 </article>
               ))}
+              {stories.length === 0 && (
+                <div style={{ background: "#fff", border: "1.5px solid #E4E6EB", borderRadius: 16, padding: "26px 24px", textAlign: "center" }}>
+                  <div style={{ fontSize: 26, marginBottom: 8 }} aria-hidden="true">{cat.emoji}</div>
+                  <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: 18, marginBottom: 6, color: INK }}>
+                    Quiet week
+                  </div>
+                  <p style={{ fontSize: 14.5, color: GREY, lineHeight: 1.55, margin: 0 }}>
+                    No new stories from our tracked sources made the cut this edition — honest curation beats padding. Check back next week.
+                  </p>
+                </div>
+              )}
             </div>
           </section>
         )}
 
         {active === "link" && (
           <section style={{ textAlign: "center" }}>
-            <h2 style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: 24, margin: "0 0 4px", color: INK }}>
+            <h2 style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: 24, margin: "0 0 4px", color: "#000000" }}>
               <span aria-hidden="true">🔍</span> Decode a link
             </h2>
             <p style={{ fontSize: 14.5, fontWeight: 600, color: GREY, margin: "0 0 20px" }}>
